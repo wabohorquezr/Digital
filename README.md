@@ -13,9 +13,7 @@ Repositorio de tareas, talleres y proyectos de la materia Electrónica Digital.
 ## 🛠 Herramientas utilizadas
 
 - Logisim
-- Verilog
-- Python
-- MATLAB
+- 
 
 ## 👨‍🎓 Estudiante
 William Alexander Bohorquez Rodriguez
