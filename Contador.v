@@ -35,11 +35,11 @@ reg [31:0]count;
 
 always @(posedge clk) begin
 
-if(count == 24999999) begin //Time is up
-    count <= 0;             //Reset count register
-    led <= ~led;            //Toggle led (in each second)
+if(count == 24999999) begin //Tiempo acabado
+    count <= 0;             //Reset
+    led <= ~led;            //Led segundo
 end else begin
-    count <= count + 1;     //Counts 100MHz clock
+    count <= count + 1;     //Counts 25MHz clock
     end
 
 end
